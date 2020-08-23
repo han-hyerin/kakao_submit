@@ -5,7 +5,7 @@ section {
 .chats img {
   width: 70px;
   height: 70px;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .chats {
@@ -25,6 +25,7 @@ section {
 .chats__column div {
   font-size: 15px;
   color: gray;
+  margin-bottom: 5px;
 }
 
 .chats__column span:first-child {
