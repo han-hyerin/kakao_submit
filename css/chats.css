@@ -5,6 +5,7 @@ section {
 .chats img {
   width: 70px;
   height: 70px;
+  margin-right: 20px;
 }
 
 .chats {
@@ -12,10 +13,13 @@ section {
   align-items: center;
 }
 
-.chats__column {
+#chat {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  border: none;
+  text-decoration: none;
+  color: black;
 }
 
 .chats__column div {
