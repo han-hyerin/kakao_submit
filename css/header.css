@@ -27,3 +27,7 @@ header {
 .header__column .fa-cog:hover {
   animation: Rotatecog 1s linear infinite;
 }
+
+.header__column .fa-cog {
+  color: rgba(44, 43, 43, 0.8);
+}

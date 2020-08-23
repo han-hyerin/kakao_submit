@@ -9,19 +9,19 @@
     <title>Index</title>
   </head>
 
-  <div class="status-bar">
-    <div>
-      <span>No Service</span>
-      <span><i class="fas fa-wifi"></i></span>
-    </div>
-    <div>21:33</div>
-    <div>
-      <span>100%</span>
-      <span><i class="fas fa-battery-full fa-lg"></i></span>
-    </div>
-  </div>
-
   <body>
+    <div class="status-bar">
+      <div>
+        <span>No Service</span>
+        <span><i class="fas fa-wifi"></i></span>
+      </div>
+      <div>21:33</div>
+      <div>
+        <span>100%</span>
+        <span><i class="fas fa-battery-full fa-lg"></i></span>
+      </div>
+    </div>
+
     <header class="index-header">
       <h1>Welcome to KakaoTalk</h1>
       <p>
@@ -30,19 +30,12 @@
       </p>
     </header>
 
-    <div class="index-login">
-      <div class="index-login__row">
-        <span>Email or phone number</span>
-      </div>
-      <div class="index-login__row">
-        <span>Password</span>
-      </div>
-      <div class="index-btn">
-        <div class="index-btn__column">Log In</div>
-        <div class="index-btn__column">Sign Up</div>
-      </div>
-      <span class="index-login__account">Find Kakao Account or Password</span>
-    </div>
+    <form action="friends.html" method="GET" id="login-form">
+      <input name="username" type="text" placeholder="Email or phone number" />
+      <input name="password" type="password" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <a href="#">Find Kokoa Account or Password</a>
+    </form>
   </body>
 
   <div id="no-mobile">
