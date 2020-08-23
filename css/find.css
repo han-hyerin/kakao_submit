@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;600;700&display=swap");
+
+* {
+  font-family: "Baloo Tamma 2", cursive;
+}
+
+section {
+  margin: 0 28px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  margin: 0 12px;
+  height: 80px;
+  position: relative;
+}
+
+header .fa-cog:hover {
+  animation: Rotatecog 1s linear infinite;
+}
+
+.header i {
+  font-size: 22px;
+  margin-left: 20px;
+}
+
+.dot-setting {
+  position: absolute;
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+}
+
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  color: rgba(44, 43, 43, 0.8);
+  border-bottom: 1px solid rgba(109, 108, 108, 0.8);
+}
+
+.find-icons__column-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.find-icons__column:nth-child(2) span {
+  padding-top: 15px;
+  margin-bottom: 21px;
+}
+.recommend__column {
+  color: rgba(109, 108, 108, 0.8);
+}
+
+.recommend__column:first-child {
+  margin-top: 20px;
+}
+
+.recommend__column:last-child {
+  border-bottom: 1px solid rgba(109, 108, 108, 0.7);
+  height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.openchat-head {
+  margin-top: 13px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(109, 108, 108, 0.7);
+}
+
+.openchat-head__title {
+  opacity: 1;
+  font-weight: 600;
+}
+
+.openchat-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0 0 0;
+}
+
+#openchat-list1 {
+  border-bottom: 1px solid rgba(109, 108, 108, 0.7);
+  align-items: center;
+}
+
+.openchat-list__column:last-child img {
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+}
+
+.openchat-list__column span {
+  color: rgba(109, 108, 108, 0.8);
+}
+
+.openchat-list__column-hashtag {
+  display: flex;
+  align-items: center;
+}
+
+.openchat-list__column-hashtag span:last-child {
+  color: rgb(245, 151, 221);
+}
+
+.openchat-list__column-hashtag img {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  margin-right: 5px;
+}

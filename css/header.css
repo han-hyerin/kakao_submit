@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 28px;
+}
+
+.header__column span:first-child {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.header__column:last-child span {
+  font-size: 25px;
+  padding-left: 18px;
+}
+
+@keyframes Rotatecog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.header__column .fa-cog:hover {
+  animation: Rotatecog 1s linear infinite;
+}

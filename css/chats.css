@@ -1,0 +1,40 @@
+section {
+  margin: 0 28px;
+}
+
+.chats img {
+  width: 70px;
+  height: 70px;
+}
+
+.chats {
+  display: flex;
+  align-items: center;
+}
+
+.chats__column {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.chats__column div {
+  font-size: 15px;
+  color: gray;
+}
+
+.chats__column span:first-child {
+  font-size: 18px;
+  color: black;
+  font-weight: 600;
+}
+
+#alarm {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: tomato;
+  color: whitesmoke;
+  margin-left: 18px;
+}

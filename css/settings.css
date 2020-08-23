@@ -1,0 +1,40 @@
+section {
+  margin: 20px 28px;
+}
+
+.settings-floor__column {
+  display: flex;
+  color: rgb(71, 68, 68);
+}
+
+.column-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.column-right :last-child {
+  color: rgb(156, 155, 155);
+}
+
+.settings-floor {
+  font-size: 23px;
+}
+
+.settings-floor:first-child {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  padding-bottom: 32px;
+}
+
+.settings-floor__column {
+  margin-top: 32px;
+}
+
+.settings-floor__column i {
+  margin-right: 20px;
+}
+
+.settings-floor {
+  margin-top: 50px;
+}

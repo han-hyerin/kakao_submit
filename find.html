@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find</title>
+    <link rel="stylesheet" href="css/find.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/navigation-bar.css" />
+    <link rel="stylesheet" href="css/status-bar.css" />
+    <link rel="stylesheet" href="css/no-mobile.css" />
+  </head>
+
+  <div class="status-bar">
+    <div>
+      <span>No Service</span>
+      <span><i class="fas fa-wifi"></i></span>
+    </div>
+    <div>21:33</div>
+    <div>
+      <span>100%</span>
+      <span><i class="fas fa-battery-full fa-lg"></i></span>
+    </div>
+  </div>
+
+  <header>
+    <div class="header"><h1>Find</h1></div>
+    <div class="header">
+      <span><i class="fas fa-search"></i></span>
+      <span>
+        <a href="settings.html">
+          <span><i class="fas fa-cog fa-sm"></i></span>
+        </a>
+        <span class="dot-setting"></span>
+      </span>
+    </div>
+  </header>
+
+  <body>
+    <section>
+      <div class="find-icons">
+        <div class="find-icons__column">
+          <span class="find-icons__column-item"
+            ><i class="fas fa-qrcode fa-2x"></i
+          ></span>
+          <div class="find-icons__column-item">QR Code</div>
+        </div>
+
+        <div class="find-icons__column">
+          <span class="find-icons__column-item"
+            ><i class="far fa-address-book fa-2x"></i
+          ></span>
+          <div class="find-icons__column-item">
+            Add by<br />
+            Contacts
+          </div>
+        </div>
+
+        <div class="find-icons__column">
+          <span class="find-icons__column-item"
+            ><i class="far fa-id-badge fa-2x"></i
+          ></span>
+          <div class="find-icons__column-item">Add by ID</div>
+        </div>
+
+        <div class="find-icons__column">
+          <span class="find-icons__column-item"
+            ><i class="far fa-envelope fa-2x"></i
+          ></span>
+          <div class="find-icons__column-item">Invite</div>
+        </div>
+      </div>
+
+      <div class="recommend">
+        <div class="recommend__column">Recommended Friends</div>
+        <div class="recommend__column">You have no recommended friends.</div>
+      </div>
+
+      <div class="openchat">
+        <div class="openchat-head">
+          <div class="openchat-head__title">Open Chat</div>
+          <div>
+            Go to openchat Home
+            <span><i class="fas fa-angle-right"></i></span>
+          </div>
+        </div>
+
+        <div class="openchat-list" id="openchat-list1">
+          <div class="openchat-list__column">
+            <div>#BTS</div>
+            <div><span>#BTS#ARMY#FRIENDS</span></div>
+            <div class="openchat-list__column-hashtag">
+              <img
+                src="https://t1.daumcdn.net/cfile/tistory/9919984A5E60D9090A"
+              />
+              <span>#802 members | </span>
+              <span> Active</span>
+            </div>
+          </div>
+          <div class="openchat-list__column">
+            <img src="https://t1.daumcdn.net/cfile/blog/99E99D495CBA19B706" />
+          </div>
+        </div>
+
+        <div class="openchat-list">
+          <div class="openchat-list__column">
+            <div>Bts Gang~</div>
+            <div><span>#englishonly #ipurpleyou #jimin #taeta...</span></div>
+            <div class="openchat-list__column-hashtag">
+              <img
+                src="https://www.polinews.co.kr/data/photos/20200414/art_15859850836129_00866c.png"
+              />
+              <span>299 members | </span>
+              <span class="openchat-list__column-active"> Active</span>
+            </div>
+          </div>
+          <div class="openchat-list__column">
+            <img
+              src="https://res.heraldm.com/content/image/2019/02/06/20190206000157_0.jpg"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+
+  <div class="nav-bar">
+    <ul class="nav__list">
+      <a href="friends.html" class="nav-bar__icons">
+        <i class="far fa-user fa-lg"></i
+      ></a>
+      <a href="chats.html" class="nav-bar__icons">
+        <div class="relative">
+          <i class="far fa-comment fa-lg"></i>
+          <div id="alarm_comment">1</div>
+        </div>
+      </a>
+      <a href="find.html" class="nav-bar__icons">
+        <i class="fas fa-search fa-lg"></i
+      ></a>
+      <a href="more.html" class="nav-bar__icons">
+        <div class="relative">
+          <i class="fas fa-ellipsis-h fa-lg"></i>
+          <span class="alarm_setting"></span>
+        </div>
+      </a>
+    </ul>
+  </div>
+
+  <div id="no-mobile">
+    <span>Your screen is too big! :(</span>
+  </div>
+
+  <script
+    src="https://kit.fontawesome.com/aedbf25886.js"
+    crossorigin="anonymous"
+  ></script>
+</html>

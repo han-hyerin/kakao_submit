@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings</title>
+    <link rel="stylesheet" href="css/status-bar.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/navigation-bar.css" />
+    <link rel="stylesheet" href="css/settings.css" />
+    <link rel="stylesheet" href="css/no-mobile.css" />
+  </head>
+
+  <div class="status-bar">
+    <div>
+      <span>No Service</span>
+      <span><i class="fas fa-wifi"></i></span>
+    </div>
+    <div>21:33</div>
+    <div>
+      <span>100%</span>
+      <span><i class="fas fa-battery-full fa-lg"></i></span>
+    </div>
+  </div>
+
+  <header>
+    <span><i class="fas fa-angle-left"></i></span>
+    <h2>Settings</h2>
+    <span><i class="fas fa-search"></i></span>
+  </header>
+
+  <body>
+    <section>
+      <div class="settings-floor">
+        <div class="settings-floor__column" id="column-notices">
+          <span><i class="fas fa-bullhorn"></i></span>
+          <span>Noticies</span>
+        </div>
+        <div class="settings-floor__column">
+          <span><i class="fas fa-flask"></i></span>
+          <span>Kakao Lab</span>
+        </div>
+        <div class="settings-floor__column">
+          <div>
+            <span><i class="fas fa-info-circle"></i></span>
+          </div>
+          <div class="column-right">
+            <span>Version</span>
+            <span>Latest Version</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="settings-floor">
+        <div class="settings-floor__column">
+          <span><i class="fas fa-lock"></i></span>
+          <span>Privacy</span>
+        </div>
+        <div class="settings-floor__column">
+          <span><i class="fas fa-bell"></i></span>
+          <span>Notifications</span>
+        </div>
+        <div class="settings-floor__column">
+          <span><i class="fas fa-user"></i></span>
+          <span>Friends</span>
+        </div>
+        <div class="settings-floor__column">
+          <span><i class="fas fa-comment"></i></span>
+          <span>Chats</span>
+        </div>
+        <div class="settings-floor__column">
+          <span><i class="fas fa-lightbulb"></i></span>
+          <span>Display</span>
+        </div>
+
+        <div class="settings-floor__column">
+          <div>
+            <span><i class="fas fa-brush"></i></span>
+          </div>
+          <div class="column-right">
+            <span>Theme</span>
+            <span>Default Themes</span>
+          </div>
+        </div>
+
+        <div class="settings-floor__column">
+          <span><i class="fas fa-phone-alt"></i></span>
+          <span>Call</span>
+        </div>
+      </div>
+    </section>
+  </body>
+
+  <div class="nav-bar">
+    <ul class="nav__list">
+      <a href="friends.html" class="nav-bar__icons">
+        <i class="far fa-user fa-lg"></i
+      ></a>
+      <a href="chats.html" class="nav-bar__icons">
+        <div class="relative">
+          <i class="far fa-comment fa-lg"></i>
+          <div id="alarm_comment">1</div>
+        </div>
+      </a>
+      <a href="find.html" class="nav-bar__icons">
+        <i class="fas fa-search fa-lg"></i
+      ></a>
+      <a href="more.html" class="nav-bar__icons">
+        <div class="relative">
+          <i class="fas fa-ellipsis-h fa-lg"></i>
+          <span class="alarm_setting"></span>
+        </div>
+      </a>
+    </ul>
+  </div>
+
+  <div id="no-mobile">
+    <span>Your screen is too big! :(</span>
+  </div>
+
+  <script
+    src="https://kit.fontawesome.com/aedbf25886.js"
+    crossorigin="anonymous"
+  ></script>
+</html>

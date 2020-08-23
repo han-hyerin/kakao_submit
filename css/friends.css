@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;600;700&display=swap");
+
+* {
+  font-family: "Baloo Tamma 2", cursive;
+}
+
+.friends-profile__img,
+.friends-profile,
+.channel {
+  margin: 0 28px;
+}
+
+.header__column span:first-child {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.header__column:last-child span {
+  font-size: 25px;
+  padding-left: 18px;
+}
+
+.friends-info {
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.02);
+  width: 110%;
+  margin-left: -20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.friends-info i {
+  color: rgba(0, 0, 0, 0.2);
+  margin: 0 8px;
+}
+
+.friends-profile {
+  margin-top: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.friends-profile img {
+  width: 80px;
+  height: 80px;
+  border-radius: 25px;
+  margin-right: 20px;
+}
+
+.channel span {
+  font-weight: 500;
+  margin: 15px 0;
+}
+
+.channel__column {
+  display: flex;
+}
+
+.channel__column img {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.channel__column:first-child,
+.channel__column-recommend {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.channel__column-recommend div:first-child {
+  font-size: 21px;
+}
+
+.channel__column:first-child,
+.channel__column-recommend-right:last-child {
+  color: rgba(150, 150, 150, 0.8);
+}
+
+@keyframes Splash {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash {
+  background-color: rgb(255, 226, 59);
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  animation: Splash 1s ease-in-out forwards;
+}
